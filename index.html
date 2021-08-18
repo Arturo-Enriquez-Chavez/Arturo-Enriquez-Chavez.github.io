@@ -12,38 +12,68 @@
 
     <body>
         <header>
-            <h1> Mi página web personal  </h1>
+            <h1> Mi página web personal  </h1> <hr>
         </header>
         
         <nav>
-            <ul>
-                <li>
-                    <a href="home.html" target="_blank"><strong>Home</strong></a>
-                </li>
-                <li>
-                    <a href="about.html" target="_blank"> <strong>About</strong> </a>
-                </li>
-                <li>
-                    <a href="contact.html" target="_blank"><strong>Contact</strong></a>
-                </li>
-                </ul>
+            <a href="home.html" target="_blank"><strong>&nbsp; &nbsp; Home&nbsp;&nbsp;</strong></a> 
+            <a href="about.html" target="_blank"> <strong>&nbsp; &nbsp; About&nbsp;&nbsp;</strong> </a>
+            <a href="contact.html" target="_blank"><strong>&nbsp; &nbsp;Contact&nbsp;&nbsp;</strong></a> <hr>
         </nav>
 
-       <hr/> 
+       
         <aside>
-            <h3>Banner de publicidad de autos</h3>
-            <p>haz click en la imagen</p>
-            <a href="https://www.autobild.es/coches/ferrari">
-              <img src="https://pbs.twimg.com/profile_images/661864962441261057/qUCqpT4n.jpg" alt="banner de publicidad">
-            </a>
-            <h3>Testimonios</h3>
-            <p>Me gusta mucho esta página.</p>
-            <h3>Video de autos</h3>
-                <video width="320" height="240" controls>
-                    <source src="images/movie.mp4" type="video/mp4">
-                    <source src="images/movie.ogg" type="video/ogg">
-                    Tu navegador no puede mostrar el vídeo.
-                </video>
+            <table>
+                <tr>
+                    <td> <h3>Banner de publicidad de autos </h3> 
+                        <a href="https://www.autobild.es/coches/ferrari">
+                            <img src="https://pbs.twimg.com/profile_images/661864962441261057/qUCqpT4n.jpg" alt="banner de publicidad" width="200" height="200">
+                        </a>
+                        <p> Los autos deportivos de Ferrari, con precios que superan los </br>
+                            140.000 dólares, apuntan a uno de los segmentos más exclusivos: </br>
+                            los millonarios de gran poder adquisitivo. La marca que fuera  </br>
+                            fundada por Enzo Ferrari también cuenta con uno de los logos  </br>
+                            más queridos y prestigiados, con la imagen de un caballo negro: </br>
+                            el “caballino rampante”. </br>
+                            <strong><em>Enzo, el artesano</em></strong></p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><hr><h3>Comentarios</h3> 
+                        <ul>
+                            <li>
+                                Maria <br>
+                                <textarea name="nombre" rows="2" cols="50">Me gusta mucho esta pagina</textarea> <br/>                                
+                            </li>
+                            <li>
+                                Jose <br>
+                                <textarea name="nombre" rows="2" cols="50">Esta muy interesante</textarea> <br/>                                
+                            </li>
+                            <li>
+                                Pedro <br>
+                                <textarea name="nombre" rows="2" cols="50">Nos vemos</textarea> <br/>                                
+                            </li>
+                        </ul>
+                        
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <hr>
+                        <h3>Video de autos</h3>
+                        <video width="320" height="240" controls>
+                            <source src="images/movie.mp4" type="video/mp4">
+                            <source src="images/movie.ogg" type="video/ogg">
+                            Tu navegador no puede mostrar el vídeo.
+                        </video>        <hr>
+                    </td>
+                </tr>
+            </table>            
+
+                   
+
         </aside>
 
         <footer>
