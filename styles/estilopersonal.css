@@ -1,4 +1,34 @@
-body { 
+footer { 
     color: yellow;
-    background-color: blue; 
+    background-color: rgba(0, 255, 149, 0.726); 
+}
+
+header { 
+    color: blue;
+    background-color: white
+}
+
+table {
+    color: firebrick;
+    background-color: aquamarine
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    list-style-type: circle;
+}
+
+aside { 
+    color: lightblue;
+    background-color: olive
+}
+
+blockquote { 
+    color: white;
+    background-color: brown
+}
+
+nav {
+    color: blue;
+    background-color: yellow
 }
