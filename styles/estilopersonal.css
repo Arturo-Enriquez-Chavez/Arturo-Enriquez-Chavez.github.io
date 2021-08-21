@@ -16,15 +16,19 @@ table {
 h1 {
     font-family: Arial, sans-serif;
     list-style-type: circle;
+    text-align:center;
+
 }
 
 aside { 
     color: lightblue;
     background-color: olive
+    
 }
 
 blockquote { 
     color: white;
+    text-align:center;
     background-color: brown
 }
 
@@ -32,3 +36,4 @@ nav {
     color: blue;
     background-color: yellow
 }
+
