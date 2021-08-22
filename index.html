@@ -25,69 +25,107 @@
         </header>
         
         <nav>
-            <a href="home.html" target="_blank"><strong>&nbsp; &nbsp; Home&nbsp;&nbsp;</strong></a> 
-            <a href="about.html" target="_blank"> <strong>&nbsp; &nbsp; About&nbsp;&nbsp;</strong> </a>
-            <a href="contact.html" target="_blank"><strong>&nbsp; &nbsp;Contact&nbsp;&nbsp;</strong></a> <hr>
+            <ul>
+                <li>
+                    <a href="home.html" target="_blank"><strong> Home</strong></a> 
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="about.html" target="_blank"> <strong> About</strong> </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="contact.html" target="_blank"><strong>Contact</strong></a> 
+                </li>
+            </ul>
+            
+            
         </nav>
 
-        <section>
+        <div class="clearfix"></div>
+
+        <section id="content">
+            <article class="article">
+                <h2>Titulo del articulo</h2>
+                <p>Texto del articulo</p>
+            </article>
+
+            <article class="article">
+                <h2>Titulo del articulo</h2>
+                <p>Texto del articulo</p>
+            </article>
+
+            <article class="article">
+                <h2>Titulo del articulo</h2>
+                <p>Texto del articulo</p>
+            </article>
 
         </section>
 
         <aside>
-            <table id="table1">
-                <tr>
-                    <td> <h3>Banner de publicidad de autos </h3> 
+
+            <h2>Barra Lateral</h2>
+            <form>
+                <input type="text">
+                <input type="submit" value="Buscar">
+            </form>
+            
+            <article class="banner">
+                <h3>Banner de publicidad de autos </h3> 
                         <a href="https://www.autobild.es/coches/ferrari">
                             <img src="https://pbs.twimg.com/profile_images/661864962441261057/qUCqpT4n.jpg" alt="banner de publicidad" width="200" height="200">
                         </a>
-                        <h5> Los autos deportivos de Ferrari, con precios que superan los </br>
-                            140.000 dólares, apuntan a uno de los segmentos más exclusivos: </br>
-                            los millonarios de gran poder adquisitivo. La marca que fuera  </br>
-                            fundada por Enzo Ferrari también cuenta con uno de los logos  </br>
-                            más queridos y prestigiados, con la imagen de un caballo negro: </br>
-                            el “caballino rampante”. </br>
-                            <strong><em>Enzo, el artesano</em></strong></h5>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td><hr><h3>Comentarios</h3> 
-                        <ul>
-                            <li>
-                                Maria <br>
-                                <textarea name="nombre" rows="2" cols="50">Me gusta mucho esta pagina</textarea> <br/>                                
-                            </li>
-                            <li>
-                                Jose <br>
-                                <textarea name="nombre" rows="2" cols="50">Esta muy interesante</textarea> <br/>                                
-                            </li>
-                            <li>
-                                Pedro <br>
-                                <textarea name="nombre" rows="2" cols="50">Nos vemos</textarea> <br/>                                
-                            </li>
-                        </ul>
-                        
-                    </td>
-                </tr>
+                        <p>
+                            Los autos deportivos de Ferrari, con precios que superan los
+                            140.000 dólares, apuntan a uno de los segmentos más exclusivos:
+                            los millonarios de gran poder adquisitivo. La marca que fuera
+                            fundada por Enzo Ferrari también cuenta con uno de los logos
+                            más queridos y prestigiados, con la imagen de un caballo negro:
+                            el “caballino rampante”.
+                            <strong><em>Enzo, el artesano</em></strong>
+                        </p>
                 
-                <tr>
-                    <td>
-                        <hr>
-                        <h3>Video de autos</h3>
-                        <video width="320" height="240" controls>
-                            <source src="images/movie.mp4" type="video/mp4">
-                            <source src="images/movie.ogg" type="video/ogg">
-                            Tu navegador no puede mostrar el vídeo.
-                        </video>        <hr>
-                    </td>
-                </tr>
-            </table>            
+            </article>
 
-                   
+            <article class="banner">
+                
+                <hr>
+                <h3>Comentarios</h3> 
+                <br>
+                <ul>
+                    <li>
+                        Maria <br>
+                        <textarea name="nombre" rows="2" cols="30">Me gusta mucho esta pagina</textarea> <br/>                                
+                    </li>
+                    <li>
+                        Jose <br>
+                        <textarea name="nombre" rows="2" cols="30">Esta muy interesante</textarea> <br/>                                
+                    </li>
+                    <li>
+                        Pedro <br>
+                        <textarea name="nombre" rows="2" cols="30">Nos vemos</textarea> 
+                    </li>
+                </ul>
+                
+            </article>
+
+            <article class="banner">
+                <hr>
+                <h3>Video de autos</h3>
+                <video class="video" width="200" height="200" controls>
+                    <source src="images/movie.mp4" type="video/mp4">
+                    <source src="images/movie.ogg" type="video/ogg">
+                    Tu navegador no puede mostrar el vídeo.
+                </video>        <hr>
+            </article>
+                 
 
         </aside>
 
+        <br/>
+        <hr/>
         <footer>
             <h4>Avisos legales</h4>
             <a href="https://iso25000.com/index.php/politica-cookies">Política de cookies</a>
