@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
         <link rel="icon" href="images/mifavicon.jpg"/>
-        <link rel="stylesheet" href="styles/estilopersonal.css">
+        <link rel="stylesheet" href="styles/estiloContact.css">
     </head>
     <body>
 
@@ -17,9 +17,7 @@
             <h1>Ingrese sus datos para contactarse lo antes posible</h1>
             <p>Formulario de contacto</p>
         </header>
-        
-        
-        
+                
         <form>
             <label>Nombres</label>
             <input type="text"> <br/>
@@ -40,49 +38,74 @@
             Feedback <br>
             <textarea name="nombre" rows="4" cols="50">Ingrese su comentario</textarea> <br/>
             
-
             <input type="submit" value="Enviar">
             <input type="reset" value="Borrar">
-
         </form>
 
-        <section>
+        <aside>
+            <h2>Anuncios publicitarios</h2>
+            <form>
+                <input type="text">
+                <input type="submit" value="Buscar">
+            </form>
             
-            <article class="art_Inf">
-                <h3 id="infoPer">Mi información personal</h3>
-
-            <table id="infoTable">
-                <tr>
-                    <td> <strong>Nombre</strong> </td>
-                    <td><strong>Apellidos</strong></td>
-                    <td><strong>Telefono</strong></td>
-                    <td><strong>Direccion</strong></td>
-                </tr>
-                <tr>
-                    <td>Arturo</td>
-                    <td>Enriquez</td>
-                    <td>973082184</td>
-                    <td>Av. Independencia</td>
-                </tr>
-
-            </table>
-            
-
+            <article class="banner">
+                <br>
+                <br>
+                <h3>Banner de publicidad de autos </h3> 
+                        <a href="https://www.autobild.es/coches/ferrari">
+                            <img src="https://pbs.twimg.com/profile_images/661864962441261057/qUCqpT4n.jpg" alt="banner de publicidad" width="200" height="200">
+                        </a>
+                        <p>
+                            Los autos deportivos de Ferrari, con precios que superan los
+                            140.000 dólares, apuntan a uno de los segmentos más exclusivos:
+                            los millonarios de gran poder adquisitivo. La marca que fuera
+                            fundada por Enzo Ferrari también cuenta con uno de los logos
+                            más queridos y prestigiados, con la imagen de un caballo negro:
+                            el “caballino rampante”.
+                            <strong><em>Enzo, el artesano</em></strong>
+                        </p>
+                
             </article>
+
             
-        </section>
+            <article class="banner">
+                
+                <hr>
+                <h3>Comentarios</h3> 
+                <br>
+                <ul>
+                    <li>
+                        Maria <br>
+                        <textarea name="nombre" rows="2" cols="25">Me gusta mucho esta pagina</textarea> <br/>                                
+                    </li>
+                    <li>
+                        Jose <br>
+                        <textarea name="nombre" rows="2" cols="25">Esta muy interesante</textarea> <br/>                                
+                    </li>
+                    <li>
+                        Pedro <br>
+                        <textarea name="nombre" rows="2" cols="25">Nos vemos</textarea> 
+                    </li>
+                </ul>
+                
+            </article>
 
-        <section>
-            <h4>Mi correo: </h4>
-            <a href=“mailto:henriquezc15_2@unc.edu.pe”>henriquezc15_2@unc.edu.pe</a>
-       
-            <h4>Redes sociales</h4>
-            <a href="https://www.facebook.com/R33333333333">Mi Facebook</a>
-       
-        </section>
+            <article class="banner">
+                <hr>
+                <h3>Video de autos</h3>
+                <video class="video" width="200" height="200" controls>
+                    <source src="images/movie.mp4" type="video/mp4">
+                    <source src="images/movie.ogg" type="video/ogg">
+                    Tu navegador no puede mostrar el vídeo.
+                </video>        <hr>
+            </article> 
+        </aside>
 
-        <footer>
-                    
+        <div class="clearfix"></div>
+
+        <br/>
+        <footer>                    
             <h5>&copy; Hubert Arturo Enriquez Chavez</h5>
         </footer>
 

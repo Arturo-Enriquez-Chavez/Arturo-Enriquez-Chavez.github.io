@@ -1,0 +1,76 @@
+
+aside { 
+  float: right;
+  width: 20% ;
+  background: orange;
+  min-height: 500px;
+  padding-left: 10px;
+  padding-right: 10 px;
+  padding-top: 20 px;
+}
+  
+form{
+  float: left;
+  width: 20% ;
+  
+  
+}
+  .banner{
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+  }
+
+  .banner h3{
+    text-align: center;
+    margin: 5x 0 5px;
+}
+
+.banner p {
+    text-align: left;
+  }
+
+  .clearfix{
+      clear:both;
+  }
+
+  footer { 
+    
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50 px;
+    line-height:50 px;
+}
+
+body{
+  background: darkblue;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  list-style-type: circle;
+  text-align:center;   
+  background: rgba(0, 0, 255, 0.233);
+  color: antiquewhite;
+}
+
+label{
+  font-family: Arial, sans-serif;
+  list-style-type: circle;
+  text-align:center;   
+  
+  color: antiquewhite;
+}
+
+p{
+  font-family: Arial, sans-serif;
+  list-style-type: circle;
+  text-align:left;   
+  
+  color: antiquewhite;
+}
+

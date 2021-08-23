@@ -1,0 +1,70 @@
+header { 
+    background: blue;
+    color: white;
+    text-align: center;
+    height: 50 px;
+    line-height:50 px;    
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    list-style-type: circle;
+    text-align:center;   
+    background: rgba(0, 0, 255, 0.233);
+}
+
+footer { 
+    
+    background: black;
+    color: white;
+    text-align: center;
+    height: 10 px;
+    line-height:10 px;
+}
+
+#cono{
+    background: black;
+    color: white;
+    height: 50 px;
+    line-height:50 px;
+}
+
+#hobby{
+    background: rgb(3, 87, 3);
+    color: white;
+    height: 50 px;
+    line-height:50 px;
+    text-align: center;
+}
+
+#comidas{
+    background: rgba(4, 29, 141, 0.952);
+    color: white;
+    height: 50 px;
+    line-height:50 px;
+    text-align: center;
+}
+
+#viaje{
+    background: rgba(3, 102, 133, 0.753);
+    color: white;
+    height: 50 px;
+    line-height:50 px;
+    text-align: center;
+}
+
+#tokio{
+    background: rgb(31, 3, 133);
+    color: white;
+    height: 50 px;
+    line-height:50 px;
+    text-align: center;
+}
+
+#cancion{
+    background: rgb(204, 138, 14);
+    color: white;
+    height: 50 px;
+    line-height:50 px;
+    text-align: center;
+}
