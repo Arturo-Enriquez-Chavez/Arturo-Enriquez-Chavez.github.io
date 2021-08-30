@@ -1,59 +1,69 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-
-
  
 footer { 
     background: black;
     color: white;
     text-align: center;
-    height: 50 px;
-    line-height:50 px;
+    height: 25 px;
+    line-height:25 px;
+}
+/*
+ * Header
+ */
+
+ .nav-masthead .nav-link {
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
 }
 
-header { 
-    color: blue;
-    background-color: white
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: #fffffffd;
 }
 
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 2rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+h3{
+  color: #fff;
+}
 h1 {
+  list-style-type: circle;
     font-family: Arial, sans-serif;
-    list-style-type: circle;
     text-align:center;   
-    background: rgba(0, 0, 255, 0.233);
+    
 }
 
 blockquote { 
     color: white;
     text-align:center;
-    background-color: blue;
+    background-color: rgba(0, 0, 0, 0.527);
+    
 }
 
-nav {
-    height:30px;
-    border-bottom: 1px solid black;
-    background: rgba(173, 216, 230, 0.63)    
+body {
+  background:url(../images/aro.jpg);
+  background-size:cover;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
-nav ul li{
-    float:left;
-    list-style: none;
-    margin: 8px;
-    line-height: 10px;
+.cover-container {
+  max-width: 42em;
 }
 
 
-body{
-    background:url(../images/azul.jpg);
-    background-size: cover;
-  }
 
 .box {
     width: 500px;
-    background: rgba(245, 235, 235, 0.404);
+    background: rgba(0, 0, 0, 0.404);
     padding: 20px;
     text-align: center;
     margin: 0 auto;
@@ -107,4 +117,127 @@ body{
     color:#b9b9b9;
     transform: scale(1.1);
   }
+
+
+
+
+#habilidades h2{
+    
+  
+    color: white;
+    background: rgba(0, 0, 255, 0.233);
+    font-size: 25px;
+    padding: 10px 5px;
+    text-align:center;   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+#hobbys h2{
+  color: white;
+  background: rgba(0, 0, 255, 0.233);
+  font-size: 25px;
+  padding: 10px 5px;
+  text-align:center;   
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#platillos h2{
+  color: white;
+  background: rgba(0, 0, 14, 0.233);
+  font-size: 25px;
+  padding: 10px 5px;
+  text-align:center;   
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#viajes h2{
+  color: white;
+  background: rgba(1, 1, 31, 0.445);
+  font-size: 25px;
+  padding: 10px 5px;
+  text-align:center;   
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#cancion{
+    
+    color: white;
+    background-color: rgba(14, 27, 204, 0.082);
+    height: 50 px;
+    line-height:50 px;
+    text-align: center;
+}
+
+
+
+
+aside { 
+  float: right;
+  width: 20% ;
+  background: rgba(89, 0, 255, 0.411);
+  min-height: 500px;
+  padding-left: 10px;
+  padding-right: 10 px;
+  padding-top: 30 px;
+}
+  
+form{
+  float: left;
+  width: 80% ;
+  
+  
+}
+
+form p{
+  color: #fff;
+}
+
+  .banner{
+    padding: 5px;
+    text-align: center;
+    margin-right: 12px;
+    margin-top: 4%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+  }
+
+  .banner h3{
+    color: #fff;
+    text-align: center;
+    margin: 5x 0 5px;
+    
+    
+}
+
+.banner ul li textarea{
+  text-align: left;
+  margin-left: 0 auto;
+  font-size: 12px;
+}
+
+.banner p {
+    text-align: left;
+  }
+
+
+  aside h4{
+    color: #fff;
+    text-align: center;
+  }
+  .clearfix{
+      clear:both;
+  }
+
+label{
+  font-family: Arial, sans-serif;
+  list-style-type: circle;
+  text-align:center;   
+  
+  color: antiquewhite;
+}
 
