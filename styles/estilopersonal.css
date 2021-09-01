@@ -6,6 +6,7 @@ footer {
     height: 25 px;
     line-height:25 px;
 }
+
 /*
  * Header
  */
@@ -15,15 +16,18 @@ footer {
   color: rgb(255, 255, 255);
   background-color: transparent;
   border-bottom: .25rem solid transparent;
+  
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
   border-bottom-color: #fffffffd;
+
 }
 
 .nav-masthead .nav-link + .nav-link {
   margin-left: 2rem;
+  
 }
 
 .nav-masthead .active {
@@ -41,12 +45,7 @@ h1 {
     
 }
 
-blockquote { 
-    color: white;
-    text-align:center;
-    background-color: rgba(0, 0, 0, 0.527);
-    
-}
+
 
 body {
   background:url(../images/aro.jpg);
@@ -118,6 +117,39 @@ body {
     transform: scale(1.1);
   }
 
+  .social {
+    position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    right: 0; /* Establecemos la barra en la izquierda */
+    top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+    z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+  }
+  
+    .social ul {
+      list-style: none;
+    }
+  
+    .social ul li a {
+      display: inline-block;
+      color:#fff;
+      background: #000;
+      padding: 10px 15px;
+      text-decoration: none;
+      -webkit-transition:all 500ms ease;
+      -o-transition:all 500ms ease;
+      transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+    }
+  
+    .social ul li .fa-facebook-square {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+    .social ul li .fa-twitter-square {background: #00abf0;}
+    .social ul li .fa-google-plus-square {background: #d95232;}
+    .social ul li .fa-linkedin-square {background: #ae181f;}
+    
+  
+    .social ul li a:hover {
+      background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+      padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+    }  
+
 
 
 
@@ -129,7 +161,8 @@ body {
     font-size: 25px;
     padding: 10px 5px;
     text-align:center;   
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Amaranth', sans-serif;
+
     
     
 }
@@ -140,7 +173,8 @@ body {
   font-size: 25px;
   padding: 10px 5px;
   text-align:center;   
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Amaranth', sans-serif;
+
 
 }
 
@@ -150,7 +184,8 @@ body {
   font-size: 25px;
   padding: 10px 5px;
   text-align:center;   
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Amaranth', sans-serif;
+
 
 }
 
@@ -160,7 +195,8 @@ body {
   font-size: 25px;
   padding: 10px 5px;
   text-align:center;   
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Amaranth', sans-serif;
+
 
 }
 
@@ -171,9 +207,18 @@ body {
     height: 50 px;
     line-height:50 px;
     text-align: center;
+    font-family: 'Amaranth', sans-serif;
+
 }
 
-
+#peliculas h2{
+  color: white;
+  background: rgba(1, 1, 31, 0.445);
+  font-size: 25px;
+  padding: 10px 5px;
+  text-align:center;   
+  font-family: 'Amaranth', sans-serif;
+}
 
 
 aside { 
@@ -241,3 +286,13 @@ label{
   color: antiquewhite;
 }
 
+
+.slide{
+  margin-top: 10px;
+
+}
+
+.slide img{
+  height: 65vh;
+  
+}
