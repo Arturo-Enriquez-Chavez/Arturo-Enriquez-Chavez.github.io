@@ -1,0 +1,43 @@
+section{
+    display:block;
+    margin:auto;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    font-family: 'Amaranth', sans-serif;
+
+}
+body{
+    background: rgba(100, 148, 237, 0.534);
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+}
+.azul{
+    background: rgba(18, 18, 119, 0.897);
+    color: white;
+}
+
+.naranja{
+    background: rgb(255, 166, 0);
+    color: white;
+}
+
+#btn_extraer{
+    background: rgb(255, 166, 0);
+    color: white;
+    font-weight: bolder;
+    border-radius: 30%;
+    
+
+}
+
+#btn_colorear{
+    background: orangered;
+    color: white;
+    font-weight: bolder;
+    border-radius: 30%;
+}
