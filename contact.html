@@ -29,95 +29,32 @@
             </div>
             
         </header>
-        
-        
-        <form>
-            <p>Formulario de contacto</p>
-            
-            <label>Nombres</label>
-            <input type="text"> <br/>
+       <!-- Sección Contacto -->
+    <section class="container py-5">
+        <h2 class="text-center fw-bold mb-4">Contáctame</h2>
+        <p class="text-center text-muted mb-5">Rellena el formulario y me pondré en contacto contigo lo antes posible.</p>
 
-            <label>Apellidos</label>
-            <input type="text"> <br/>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form action="https://formspree.io/f/your-id" method="POST" class="p-4 border rounded shadow-sm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre completo</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="email" name="_replyto" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-            <label>Email</label>
-            <input type="email"> <br/>
-            
-            <label>Sexo</label>
-            <select>
-                <option value="masculino">Masculino</option>
-                <option value="femenino">Femenino</option>
-            </select> <br/>
-            
-            
-            <p>Feedback:</p>
-            <textarea name="nombre" rows="4" cols="50">Ingrese su comentario</textarea> <br/>
-            
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar">
-        </form>
-        <br>
-        <br>
-        <aside>
-    
-            <h4>Anuncios publicitarios</h4>
-            <form>
-                <input type="text">
-                <input type="submit" value="Buscar">
-            </form>
-            
-            <article class="banner">
-                <br>
-                <br>
-                <h4>Banner de publicidad de autos </h4> 
-                        <a href="https://www.autobild.es/coches/ferrari">
-                            <img src="https://pbs.twimg.com/profile_images/661864962441261057/qUCqpT4n.jpg" alt="banner de publicidad" width="200" height="200">
-                        </a>
-                        <p>
-                            Los autos deportivos de Ferrari, con precios que superan los
-                            140.000 dólares, apuntan a uno de los segmentos más exclusivos:
-                            los millonarios de gran poder adquisitivo. La marca que fuera
-                            fundada por Enzo Ferrari también cuenta con uno de los logos
-                            más queridos y prestigiados, con la imagen de un caballo negro:
-                            el “caballino rampante”.
-                            <strong><em>Enzo, el artesano</em></strong>
-                        </p>
-                
-            </article>
-
-            
-            <article class="banner">
-                
-                <hr>
-                <h4>Comentarios</h4> 
-                <br>
-                <ul>
-                    <li>
-                        Maria <br>
-                        <textarea name="nombre" rows="2" cols="25">Me gusta mucho esta pagina</textarea> <br/>                                
-                    </li>
-                    <li>
-                        Jose <br>
-                        <textarea name="nombre" rows="2" cols="25">Esta muy interesante</textarea> <br/>                                
-                    </li>
-                    <li>
-                        Pedro <br>
-                        <textarea name="nombre" rows="2" cols="25">Nos vemos</textarea> 
-                    </li>
-                </ul>
-                
-            </article>
-
-            <article class="banner">
-                <hr>
-                <h3>Video de autos</h3>
-                <video class="video" width="200" height="200" controls>
-                    <source src="images/movie.mp4" type="video/mp4">
-                    <source src="images/movie.ogg" type="video/ogg">
-                    Tu navegador no puede mostrar el vídeo.
-                </video>        <hr>
-            </article> 
-        </aside>
 
         <div class="clearfix"></div>
 
