@@ -207,14 +207,14 @@ body {
     position: absolute;
     border-radius: 50%;
     filter: blur(100px);
-    opacity: 0.5;
+    opacity: 0.15;
     animation: float 20s ease-in-out infinite;
 }
 
 .orb-1 {
     width: 600px;
     height: 600px;
-    background: var(--accent-cyan);
+    background: rgba(255, 255, 255, 0.1);
     top: -200px;
     right: -100px;
     animation-delay: 0s;
@@ -223,7 +223,7 @@ body {
 .orb-2 {
     width: 500px;
     height: 500px;
-    background: var(--accent-blue);
+    background: rgba(255, 255, 255, 0.08);
     bottom: -150px;
     left: -100px;
     animation-delay: -7s;
@@ -232,12 +232,12 @@ body {
 .orb-3 {
     width: 400px;
     height: 400px;
-    background: var(--accent-cyan);
+    background: rgba(255, 255, 255, 0.06);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     animation-delay: -14s;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 @keyframes float {
@@ -280,7 +280,7 @@ body {
 
 .hero-title {
     font-family: var(--font-heading);
-    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-size: clamp(2rem, 5vw, 3.5rem);
     font-weight: 800;
     line-height: 1.1;
     margin-bottom: 0.5rem;
@@ -336,6 +336,11 @@ body {
     align-items: flex-start;
 }
 
+.stat-value {
+    display: flex;
+    align-items: baseline;
+}
+
 .stat-number {
     font-family: var(--font-heading);
     font-size: 2.5rem;
@@ -349,10 +354,13 @@ body {
 
 .stat-plus {
     font-family: var(--font-heading);
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 2.5rem;
+    font-weight: 800;
     color: var(--accent-cyan);
     margin-left: 2px;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: var(--accent-cyan);
+    background-clip: unset;
 }
 
 .stat-label {
@@ -452,7 +460,7 @@ body {
 .hero-card {
     position: relative;
     background: var(--bg-glass);
-    border: 1px solid var(--border-subtle);
+    border: 2px solid rgba(56, 189, 248, 0.3);
     border-radius: var(--radius-xl);
     padding: 1.5rem;
     backdrop-filter: blur(20px);
@@ -462,11 +470,10 @@ body {
 .card-glow {
     position: absolute;
     inset: -2px;
-    background: var(--gradient-primary);
+    background: transparent;
     border-radius: var(--radius-xl);
     z-index: -1;
-    opacity: 0.5;
-    filter: blur(20px);
+    box-shadow: 0 0 30px rgba(56, 189, 248, 0.3), 0 0 80px rgba(56, 189, 248, 0.2);
 }
 
 .code-window {
@@ -552,7 +559,7 @@ body {
     backdrop-filter: blur(10px);
     font-size: 0.8rem;
     font-weight: 600;
-    color: var(--accent-cyan);
+    color: var(--text-primary);
     animation: floatBadge 6s ease-in-out infinite;
 }
 
