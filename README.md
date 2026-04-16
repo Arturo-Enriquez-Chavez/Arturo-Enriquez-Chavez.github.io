@@ -1,144 +1,91 @@
-# Portfolio Arturo Enriquez v2.0
+# Arturo Enriquez - Portfolio Profesional
 
-Portfolio profesional con sistema de contactos integrado, construido con FastAPI y Bootstrap 5.
+Portfolio profesional de Arturo Enriquez - AI Engineer & Software Architect, especializado en LLM, RAG Systems y arquitecturas SaaS escalables.
 
-## Características
+## 🌐 Demo en Vivo
 
-- Diseño premium dark glassmorphism 2026
-- Animaciones suaves con AOS.js
-- Sistema de contactos con base de datos SQLite
-- Botón flotante de WhatsApp
-- Panel de administración para gestionar mensajes
-- Formulario con validación en tiempo real
-- Animación de contadores
-- Typing effect en el hero
-- Scroll progress bar
-- Fully responsive
+[arturo-enriquez.github.io](https://arturo-enriquez.github.io)
 
-## Requisitos
+## ✨ Características
 
-- Python 3.10+
-- pip
+- **Diseño premium dark glassmorphism 2026**
+- **Animaciones suaves con AOS.js**
+- **Formulario de contacto con Formspree** (servicio externo)
+- **Botón flotante de WhatsApp**
+- **Formulario con validación en tiempo real**
+- **Animación de contadores**
+- **Typing effect en el hero**
+- **Scroll progress bar**
+- **Fully responsive**
 
-## Instalación
+## 📁 Estructura del Proyecto
 
-1. Clonar o descargar el proyecto
-2. Crear entorno virtual (opcional pero recomendado):
+```
+├── index.html          # Página principal
+├── static/
+│   ├── css/
+│   │   └── styles.css  # Estilos personalizados
+│   └── js/
+│       └── main.js     # JavaScript
+└── README.md           # Este archivo
+```
 
+## 🚀 Uso Local
+
+1. Clonar el repositorio:
 ```bash
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
+git clone https://github.com/Arturo-Enriquez-Chavez/Arturo-Enriquez-Chavez.github.io.git
+cd Arturo-Enriquez-Chavez.github.io
 ```
 
-3. Instalar dependencias:
-
+2. Abrir `index.html` directamente en el navegador o usar un servidor local:
 ```bash
-pip install -r requirements.txt
+# Python 3
+python -m http.server 8000
+
+# Node.js (con http-server)
+npx http-server
 ```
 
-## Uso
+3. Abrir en el navegador: `http://localhost:8000`
 
-1. Iniciar el servidor:
-
-```bash
-python server.py
-```
-
-2. Abrir en el navegador:
-
-- **Portfolio:** http://localhost:8000
-- **Admin Panel:** http://localhost:8000/admin
-
-## Estructura del Proyecto
-
-```
-├── server.py           # Servidor FastAPI
-├── database.py         # Gestión de SQLite
-├── requirements.txt    # Dependencias
-├── portfolio.db        # Base de datos (se crea automáticamente)
-├── templates/
-│   ├── index.html      # Página principal
-│   └── admin.html      # Panel de administración
-└── static/
-    ├── css/
-    │   └── styles.css  # Estilos personalizados
-    └── js/
-        └── main.js     # JavaScript
-```
-
-## API Endpoints
-
-| Método | Endpoint | Descripción |
-|--------|----------|-------------|
-| GET | `/` | Página principal |
-| GET | `/admin` | Panel de administración |
-| GET | `/api/contacts` | Listar todos los contactos |
-| POST | `/api/contact` | Crear nuevo contacto |
-| PATCH | `/api/contacts/{id}/read` | Marcar como leído |
-| DELETE | `/api/contacts/{id}` | Eliminar contacto |
-| GET | `/api/stats` | Estadísticas |
-
-## Base de Datos
-
-SQLite se utiliza para almacenar los mensajes de contacto:
-
-- `id`: ID único
-- `name`: Nombre del contacto
-- `email`: Correo electrónico
-- `subject`: Asunto (opcional)
-- `message`: Mensaje
-- `phone`: Teléfono (opcional)
-- `company`: Empresa (opcional)
-- `ip_address`: IP del visitante
-- `created_at`: Fecha de creación
-- `is_read`: Estado de lectura
-
-## Personalización
+## ⚙️ Personalización
 
 ### Cambiar número de WhatsApp
-
-Editar en `templates/index.html`:
-
+Editar en `index.html`:
 ```html
-<a href="https://wa.me/51987654321?text=...">
+<a href="https://wa.me/51973082184?text=...">
+```
+
+### Configurar Formspree
+1. Crear cuenta en [formspree.io](https://formspree.io)
+2. Crear un nuevo formulario
+3. Reemplazar `YOUR_FORMSPREE_ID` en `index.html` con tu ID:
+```html
+<form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
 ```
 
 ### Cambiar información de contacto
-
-Editar en `templates/index.html` la sección de contacto.
+Editar en `index.html` la sección de contacto.
 
 ### Agregar CV para descarga
-
 Colocar el archivo PDF en `static/cv-arturo-enriquez.pdf`
 
-## Despliegue
+## 🛠️ Tecnologías
 
-### Producción con Uvicorn
+- **Frontend**: Bootstrap 5.3, AOS.js, Vanilla JS
+- **UI**: Glassmorphism, CSS Variables, Flexbox/Grid
+- **Iconos**: Bootstrap Icons
+- **Hosting**: GitHub Pages
 
-```bash
-uvicorn server:app --host 0.0.0.0 --port 8000 --workers 4
-```
+## 📦 Despliegue en GitHub Pages
 
-### Docker (opcional)
+Este sitio está configurado para desplegarse automáticamente en GitHub Pages. Simplemente:
 
-```dockerfile
-FROM python:3.11-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-COPY . .
-EXPOSE 8000
-CMD ["uvicorn", "server:app", "--host", "0.0.0.0", "--port", "8000"]
-```
+1. Hacer push a la rama `main`
+2. GitHub Pages se despliega automáticamente desde la raíz del repositorio
+3. El sitio estará disponible en `https://username.github.io`
 
-## Tecnologías
-
-- **Backend:** FastAPI, Pydantic, SQLite
-- **Frontend:** Bootstrap 5.3, AOS.js, Vanilla JS
-- **UI:** Glassmorphism, CSS Variables, Flexbox/Grid
-- **Iconos:** Bootstrap Icons
-
-## Licencia
+## 📝 Licencia
 
 © 2026 Arturo Enriquez. Todos los derechos reservados.

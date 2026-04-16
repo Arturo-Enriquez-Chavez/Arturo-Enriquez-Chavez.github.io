@@ -195,15 +195,14 @@ function initContactForm() {
         btnLoader.classList.remove('d-none');
         
         try {
-            const response = await fetch('/api/contact', {
+            const response = await fetch(form.action, {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
                 },
                 body: JSON.stringify(data)
             });
-            
-            const result = await response.json();
             
             if (response.ok) {
                 // Show success toast
@@ -218,7 +217,7 @@ function initContactForm() {
                     input.classList.remove('is-valid');
                 });
             } else {
-                throw new Error(result.detail || 'Error al enviar el mensaje');
+                throw new Error('Error al enviar el mensaje');
             }
         } catch (error) {
             console.error('Error:', error);
