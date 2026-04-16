@@ -364,9 +364,10 @@ body {
 }
 
 .stat-label {
-    font-size: 0.85rem;
-    color: var(--text-muted);
-    margin-top: 0.25rem;
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-top: 0.05rem;
+    font-weight: 500;
 }
 
 .hero-buttons {
@@ -1392,6 +1393,74 @@ body {
 .whatsapp-icon svg {
     width: 100%;
     height: 100%;
+}
+
+/* ================================================
+   TELEGRAM FLOAT BUTTON
+   ================================================ */
+.telegram-float {
+    position: fixed;
+    bottom: 30px;
+    right: 100px;
+    width: 60px;
+    height: 60px;
+    background: #0088cc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    box-shadow: 0 4px 20px rgba(0, 136, 204, 0.4);
+    transition: all var(--transition-normal);
+    text-decoration: none;
+}
+
+.telegram-float:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 30px rgba(0, 136, 204, 0.5);
+}
+
+.telegram-icon {
+    width: 38px;
+    height: 38px;
+    color: white;
+}
+
+.telegram-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.telegram-tooltip {
+    position: absolute;
+    right: 70px;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-md);
+    font-size: 0.9rem;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateX(10px);
+    transition: all var(--transition-fast);
+    pointer-events: none;
+    box-shadow: var(--shadow-md);
+}
+
+.telegram-float:hover .telegram-tooltip {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.telegram-pulse {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #0088cc;
+    animation: whatsappPulse 2s ease-out infinite;
+    z-index: -1;
 }
 
 .whatsapp-icon svg {
