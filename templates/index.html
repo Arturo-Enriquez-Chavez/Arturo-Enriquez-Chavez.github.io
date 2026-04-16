@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Arturo Enriquez - AI Engineer y Arquitecto de Sistemas especializado en LLM, RAG, y desarrollo SaaS con Webpay Chile.">
+    <meta name="keywords" content="AI Engineer, LLM, RAG, Python, FastAPI, SaaS, Webpay, Chile, Machine Learning">
+    <meta name="author" content="Arturo Enriquez">
+    <meta name="robots" content="index, follow">
+    
+    <meta property="og:title" content="Arturo Enriquez - AI Engineer & Software Architect">
+    <meta property="og:description" content="Portfolio profesional especializado en soluciones de IA, RAG y arquitecturas SaaS escalables.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_PE">
+    
+    <title>Arturo Enriquez - AI Engineer & Software Architect</title>
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%237dd3fc'/%3E%3Cstop offset='100%25' stop-color='%230ea5e9'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='50' cy='50' r='45' fill='url(%23g)'/%3E%3Ctext x='50' y='65' font-size='50' font-weight='bold' text-anchor='middle' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link href="/static/css/styles.css" rel="stylesheet">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Arturo Enriquez",
+        "jobTitle": "AI Engineer & Software Architect",
+        "description": "Ingeniero especializado en LLM, RAG Systems y arquitecturas SaaS escalables",
+        "url": "https://arturo-enriquez.dev",
+        "sameAs": [
+            "https://linkedin.com/in/arturoenriquez",
+            "https://github.com/arturoenriquez"
+        ],
+        "knowsAbout": ["Python", "FastAPI", "LLM", "RAG", "Machine Learning", "SaaS", "Webpay"]
+    }
+    </script>
+</head>
+<body>
+    <div id="scroll-progress"></div>
+    
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                <div class="brand-icon">
+                    <span>AE</span>
+                </div>
+                <span class="brand-text">Arturo Enriquez</span>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio"><i class="bi bi-house me-1"></i>Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi"><i class="bi bi-person me-1"></i>Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos"><i class="bi bi-folder me-1"></i>Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tecnologias"><i class="bi bi-cpu me-1"></i>Tecnologías</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiencia"><i class="bi bi-briefcase me-1"></i>Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto"><i class="bi bi-envelope me-1"></i>Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero-section">
+        <div class="hero-background">
+            <div class="grid-pattern"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container position-relative">
+            <div class="row align-items-center min-vh-100 py-5">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="hero-content">
+                        <div class="badge-container mb-3">
+                            <span class="badge-pill">
+                                <i class="bi bi-lightning-charge-fill"></i>
+                                Disponible para proyectos
+                            </span>
+                        </div>
+                        <h1 class="hero-title mb-3">
+                            <span class="text-gradient">Arturo Enriquez</span>
+                        </h1>
+                        <h2 class="hero-subtitle mb-4">
+                            <span class="typing-text"></span>
+                            <span class="cursor">|</span>
+                        </h2>
+                        <p class="hero-description mb-4">
+                            AI Engineer y Arquitecto de Software especializado en construir soluciones 
+                            escalables con LLM, RAG Systems y arquitecturas SaaS de alto rendimiento. 
+                            Transformo ideas complejas en productos que generan impacto real.
+                        </p>
+                        <div class="hero-stats mb-4">
+                            <div class="stat-item">
+                                <span class="stat-number" data-target="50">0</span>
+                                <span class="stat-plus">+</span>
+                                <span class="stat-label">Proyectos Entregados</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-target="98">0</span>
+                                <span class="stat-plus">%</span>
+                                <span class="stat-label">Satisfacción</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-target="5">0</span>
+                                <span class="stat-plus">+</span>
+                                <span class="stat-label">Años de Experiencia</span>
+                            </div>
+                        </div>
+                        <div class="hero-buttons">
+                            <a href="#proyectos" class="btn btn-primary-custom me-3">
+                                <i class="bi bi-folder-check me-2"></i>Ver Proyectos
+                            </a>
+                            <a href="#contacto" class="btn btn-secondary-custom me-3">
+                                <i class="bi bi-envelope me-2"></i>Contactar
+                            </a>
+                            <a href="/static/cv-arturo-enriquez.pdf" class="btn btn-outline-custom" download>
+                                <i class="bi bi-download me-2"></i>Descargar CV
+                            </a>
+                        </div>
+                        <div class="hero-social mt-4">
+                            <a href="https://linkedin.com/in/arturoenriquez" target="_blank" class="social-icon" aria-label="LinkedIn">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/arturoenriquez" target="_blank" class="social-icon" aria-label="GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://twitter.com/arturoenriquez" target="_blank" class="social-icon" aria-label="Twitter">
+                                <i class="bi bi-twitter-x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="hero-visual">
+                        <div class="hero-card">
+                            <div class="card-glow"></div>
+                            <div class="code-window">
+                                <div class="window-header">
+                                    <span class="dot red"></span>
+                                    <span class="dot yellow"></span>
+                                    <span class="dot green"></span>
+                                    <span class="window-title">ai_engineer.py</span>
+                                </div>
+                                <pre class="code-content"><code><span class="token-keyword">from</span> <span class="token-module">typing</span> <span class="token-keyword">import</span> <span class="token-class">List</span>
+<span class="token-keyword">import</span> <span class="token-module">langchain</span> <span class="token-keyword">as</span> <span class="token-module">lc</span>
+<span class="token-keyword">import</span> <span class="token-module">fastapi</span> <span class="token-keyword">as</span> <span class="token-module">fa</span>
+
+<span class="token-comment"># RAG System Architecture</span>
+<span class="token-keyword">class</span> <span class="token-class">AIRetrievalSystem</span>():
+    <span class="token-keyword">def</span> <span class="token-function">__init__</span>(<span class="token-params">self</span>):
+        <span class="token-variable">self</span>.<span class="token-attribute">llm</span> = <span class="token-class">ChatGPT</span>(<span class="token-variable">model</span>=<span class="token-string">"gpt-4o"</span>)
+        <span class="token-variable">self</span>.<span class="token-attribute">vector_db</span> = <span class="token-class">Pinecone</span>()
+        <span class="token-variable">self</span>.<span class="token-attribute">retriever</span> = <span class="token-class">VectorRetriever</span>()
+    
+    <span class="token-keyword">async def</span> <span class="token-function">query</span>(<span class="token-params">self, question: <span class="token-class">str</span></span>):
+        docs = <span class="token-keyword">await</span> <span class="token-variable">self</span>.<span class="token-attribute">retriever</span>.<span class="token-function">search</span>(
+            <span class="token-variable">query</span>=question,
+            <span class="token-variable">top_k</span>=<span class="token-number">5</span>
+        )
+        <span class="token-keyword">return</span> <span class="token-keyword">await</span> <span class="token-variable">self</span>.<span class="token-attribute">llm</span>.<span class="token-function">ainvoke</span>(
+            <span class="token-variable">context</span>=docs,
+            <span class="token-variable">question</span>=question
+        )</code></pre>
+                            </div>
+                            <div class="floating-badges">
+                                <div class="floating-badge badge-1">
+                                    <i class="bi bi-robot"></i>
+                                    <span>LLM</span>
+                                </div>
+                                <div class="floating-badge badge-2">
+                                    <i class="bi bi-graph-up"></i>
+                                    <span>RAG</span>
+                                </div>
+                                <div class="floating-badge badge-3">
+                                    <i class="bi bi-cloud"></i>
+                                    <span>FastAPI</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Conóceme</span>
+                <h2 class="section-title">Sobre Mí</h2>
+                <p class="section-subtitle">
+                    Transformando datos en decisiones inteligentes
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-8" data-aos="fade-right">
+                    <div class="about-card">
+                        <div class="about-content">
+                            <p class="lead mb-4">
+                                Soy un profesional apasionado por la tecnología y la innovación, 
+                                especializado en construir soluciones que combinan inteligencia artificial 
+                                con arquitecturas de software escalables.
+                            </p>
+                            <p class="mb-4">
+                                Mi enfoque se centra en implementar sistemas de 
+                                <strong>Retrieval Augmented Generation (RAG)</strong>, 
+                                modelos de lenguaje personalizados y plataformas SaaS que 
+                                resuelven problemas reales de negocio.
+                            </p>
+                            <p>
+                                He trabajado con empresas en Latinoamérica y Estados Unidos, 
+                                ayudando a optimizar sus procesos mediante automatización inteligente 
+                                y análisis predictivo. Mi filosofía es crear tecnología que sea 
+                                tanto poderosa como accesible.
+                            </p>
+                        </div>
+                        <div class="about-image">
+                            <div class="image-wrapper">
+                                <div class="image-placeholder">
+                                    <i class="bi bi-person-fill"></i>
+                                </div>
+                                <div class="image-decoration"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-left">
+                    <div class="skills-card">
+                        <h3 class="card-title mb-4">
+                            <i class="bi bi-stars me-2"></i>Especialidades
+                        </h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">AI Engineering</span>
+                            <span class="skill-tag">LLM Fine-tuning</span>
+                            <span class="skill-tag">RAG Systems</span>
+                            <span class="skill-tag">FastAPI</span>
+                            <span class="skill-tag">Django</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">n8n</span>
+                            <span class="skill-tag">OpenClaw</span>
+                            <span class="skill-tag">VEO 3.1</span>
+                            <span class="skill-tag">System Design</span>
+                            <span class="skill-tag">SaaS Architecture</span>
+                            <span class="skill-tag">Webpay Integration</span>
+                            <span class="skill-tag">API Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="expertise-grid mt-5">
+                <div class="expertise-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="expertise-icon">
+                        <i class="bi bi-robot"></i>
+                    </div>
+                    <h3>AI Engineering</h3>
+                    <p>Diseño e implemento sistemas de IA generativa, chatbots inteligentes y pipelines de ML en producción.</p>
+                    <div class="expertise-tags">
+                        <span>LangChain</span>
+                        <span>OpenAI</span>
+                        <span>Hugging Face</span>
+                    </div>
+                </div>
+                <div class="expertise-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="expertise-icon">
+                        <i class="bi bi-database"></i>
+                    </div>
+                    <h3>RAG Systems</h3>
+                    <p>Construyo sistemas de Retrieval Augmented Generation para búsqueda semántica y respuestas contextuales.</p>
+                    <div class="expertise-tags">
+                        <span>Pinecone</span>
+                        <span>ChromaDB</span>
+                        <span>Elasticsearch</span>
+                    </div>
+                </div>
+                <div class="expertise-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="expertise-icon">
+                        <i class="bi bi-cloud"></i>
+                    </div>
+                    <h3>Cloud Architecture</h3>
+                    <p>Diseño arquitecturas escalables y resilientes en AWS y servicios serverless.</p>
+                    <div class="expertise-tags">
+                        <span>AWS Lambda</span>
+                        <span>ECS</span>
+                        <span>RDS</span>
+                    </div>
+                </div>
+                <div class="expertise-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="expertise-icon">
+                        <i class="bi bi-credit-card"></i>
+                    </div>
+                    <h3>Pagos Chile</h3>
+                    <p>Integración experta de Webpay Plus, Stripe y pasarelas de pago locales.</p>
+                    <div class="expertise-tags">
+                        <span>Webpay</span>
+                        <span>Stripe</span>
+                        <span>MercadoPago</span>
+                    </div>
+                </div>
+                <div class="expertise-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="expertise-icon">
+                        <i class="bi bi-arrow-repeat"></i>
+                    </div>
+                    <h3>Automation & Workflows</h3>
+                    <p>Automatización de procesos con n8n, OpenClaw y integración de APIs.</p>
+                    <div class="expertise-tags">
+                        <span>n8n</span>
+                        <span>OpenClaw</span>
+                        <span>Make.com</span>
+                    </div>
+                </div>
+                <div class="expertise-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="expertise-icon">
+                        <i class="bi bi-diagram-3"></i>
+                    </div>
+                    <h3>System Design</h3>
+                    <p>Diseño de sistemas distribuidos, microservicios y arquitecturas event-driven.</p>
+                    <div class="expertise-tags">
+                        <span>Kafka</span>
+                        <span>Redis</span>
+                        <span>gRPC</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Proyectos Destacados</h2>
+                <p class="section-subtitle">
+                    Soluciones que he construido y que generan valor real
+                </p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- AI & RAG -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-light"><i class="bi bi-play-circle me-1"></i>Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-github me-1"></i>Code</a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="bi bi-robot"></i>
+                        </div>
+                        <div class="project-badge">AI</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>RAG Document Intelligence</h3>
+                        <p>Sistema de búsqueda semántica sobre documentos legales con LLM para respuestas contextuales y cite checking.</p>
+                        <div class="project-tech">
+                            <span>LangChain</span>
+                            <span>Pinecone</span>
+                            <span>GPT-4</span>
+                            <span>FastAPI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- E-commerce Chile -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-light"><i class="bi bi-play-circle me-1"></i>Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-github me-1"></i>Code</a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="bi bi-cart-check"></i>
+                        </div>
+                        <div class="project-badge">SaaS</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>SaaS E-commerce Chile</h3>
+                        <p>Plataforma multitenancy con integración Webpay Plus, gestión de inventarios y panel administrativo completo.</p>
+                        <div class="project-tech">
+                            <span>Django</span>
+                            <span>PostgreSQL</span>
+                            <span>Webpay Plus</span>
+                            <span>Docker</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Automation n8n -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-light"><i class="bi bi-play-circle me-1"></i>Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-github me-1"></i>Code</a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="bi bi-diagram-2"></i>
+                        </div>
+                        <div class="project-badge">Automation</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Pipeline de Automatización Empresarial</h3>
+                        <p>Workflows automatizados con n8n para sincronización de CRM, notificaciones y reportes automáticos.</p>
+                        <div class="project-tech">
+                            <span>n8n</span>
+                            <span>Webhooks</span>
+                            <span>REST APIs</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI Video Generator -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-light"><i class="bi bi-play-circle me-1"></i>Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-github me-1"></i>Code</a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="bi bi-play-circle"></i>
+                        </div>
+                        <div class="project-badge">AI Video</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Generador de Videos con IA</h3>
+                        <p>Plataforma que integra VEO 3.1 y Sora para crear videos promocionales automáticamente.</p>
+                        <div class="project-tech">
+                            <span>VEO 3.1</span>
+                            <span>Sora</span>
+                            <span>React</span>
+                            <span>FastAPI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI Image Generator -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-light"><i class="bi bi-play-circle me-1"></i>Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-github me-1"></i>Code</a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="bi bi-image"></i>
+                        </div>
+                        <div class="project-badge">AI Art</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Estudio de Generación de Imágenes</h3>
+                        <p>Dashboard para crear y editar imágenes con DALL-E 3, Midjourney y Stable Diffusion.</p>
+                        <div class="project-tech">
+                            <span>DALL-E 3</span>
+                            <span>Midjourney</span>
+                            <span>Stable Diffusion</span>
+                            <span>Next.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chatbot with Memory -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-light"><i class="bi bi-play-circle me-1"></i>Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-github me-1"></i>Code</a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="bi bi-chat-dots"></i>
+                        </div>
+                        <div class="project-badge">Chatbot</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Chatbot Empresarial con Memoria</h3>
+                        <p>Asistente virtual con contexto de empresa, integrable a WhatsApp y web via OpenClaw.</p>
+                        <div class="project-tech">
+                            <span>OpenClaw</span>
+                            <span>LangChain</span>
+                            <span>ChromaDB</span>
+                            <span>WhatsApp</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Voice AI -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-light"><i class="bi bi-play-circle me-1"></i>Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-github me-1"></i>Code</a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="bi bi-mic"></i>
+                        </div>
+                        <div class="project-badge">Voice AI</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Text-to-Speech IVR System</h3>
+                        <p>Sistema de atención telefónica con ElevenLabs para respuestas voz automatizadas.</p>
+                        <div class="project-tech">
+                            <span>ElevenLabs</span>
+                            <span>FastAPI</span>
+                            <span>Redis</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- API Gateway -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="700">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-light"><i class="bi bi-play-circle me-1"></i>Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-github me-1"></i>Code</a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <div class="project-badge">API</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>API Gateway con Auth</h3>
+                        <p>Gateway con autenticación OAuth2, rate limiting, cache con Redis y documentación OpenAPI.</p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>Redis</span>
+                            <span>Docker</span>
+                            <span>GraphQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ML Dashboard -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="800">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-light"><i class="bi bi-play-circle me-1"></i>Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-github me-1"></i>Code</a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="bi bi-graph-up"></i>
+                        </div>
+                        <div class="project-badge">ML Ops</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>ML Ops Monitoring Dashboard</h3>
+                        <p>Panel para monitoreo de modelos en producción con métricas, alertas y reentrenamiento.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Python</span>
+                            <span>Datadog</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Scraper -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="900">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-light"><i class="bi bi-play-circle me-1"></i>Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-github me-1"></i>Code</a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="bi bi-browser-chrome"></i>
+                        </div>
+                        <div class="project-badge">Scraping</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Scraper Intelligence Platform</h3>
+                        <p>Sistema de extracción de datos web con Puppeteer y Selenium para análisis competitivo.</p>
+                        <div class="project-tech">
+                            <span>Puppeteer</span>
+                            <span>Selenium</span>
+                            <span>Python</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Multi-Payment -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-light"><i class="bi bi-play-circle me-1"></i>Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-github me-1"></i>Code</a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="bi bi-credit-card"></i>
+                        </div>
+                        <div class="project-badge">Payments</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Pasarela Multi-Payment Chile</h3>
+                        <p>Gateway unificado con Webpay Plus, MercadoPago, Stripe y códigos QR dinámicos.</p>
+                        <div class="project-tech">
+                            <span>Webpay Plus</span>
+                            <span>MercadoPago</span>
+                            <span>Stripe</span>
+                            <span>Django</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Infrastructure as Code -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="1100">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-light"><i class="bi bi-play-circle me-1"></i>Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-light"><i class="bi bi-github me-1"></i>Code</a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="bi bi-cloud"></i>
+                        </div>
+                        <div class="project-badge">DevOps</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Infraestructura como Código</h3>
+                        <p>Despliegue completo en AWS con Terraform, Kubernetes y GitHub Actions CI/CD.</p>
+                        <div class="project-tech">
+                            <span>Terraform</span>
+                            <span>Kubernetes</span>
+                            <span>AWS</span>
+                            <span>GitHub Actions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologias" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Stack Tech</span>
+                <h2 class="section-title">Tecnologías</h2>
+                <p class="section-subtitle">
+                    Herramientas y tecnologías que domino
+                </p>
+            </div>
+
+            <div class="tech-grid">
+                <div class="tech-category" data-aos="fade-up" data-aos-delay="0">
+                    <div class="tech-header">
+                        <div class="tech-icon">
+                            <i class="bi bi-cpu"></i>
+                        </div>
+                        <h3>AI & Machine Learning</h3>
+                    </div>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="bi bi-file-code"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-lightning-charge"></i>
+                            <span>LangChain</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-robot"></i>
+                            <span>OpenAI API</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-shield-check"></i>
+                            <span>Hugging Face</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-database"></i>
+                            <span>Pinecone</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-box-seam"></i>
+                            <span>ChromaDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="tech-header">
+                        <div class="tech-icon">
+                            <i class="bi bi-server"></i>
+                        </div>
+                        <h3>Backend & APIs</h3>
+                    </div>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="bi bi-lightning-charge"></i>
+                            <span>FastAPI</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-code-slash"></i>
+                            <span>Django</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-braces"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-database-check"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-hdd"></i>
+                            <span>Redis</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-box"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-arrow-left-right"></i>
+                            <span>GraphQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-file-code"></i>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tech-header">
+                        <div class="tech-icon">
+                            <i class="bi bi-palette"></i>
+                        </div>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="bi bi-hexagon"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-file-code"></i>
+                            <span>TypeScript</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-bootstrap"></i>
+                            <span>Bootstrap 5</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-palette2"></i>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-lightning-charge"></i>
+                            <span>Vite</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-bar-chart"></i>
+                            <span>Chart.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-globe"></i>
+                            <span>Next.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-braces"></i>
+                            <span>Vue.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="tech-header">
+                        <div class="tech-icon">
+                            <i class="bi bi-cloud"></i>
+                        </div>
+                        <h3>Cloud & DevOps</h3>
+                    </div>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="bi bi-server"></i>
+                            <span>AWS</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-cloud"></i>
+                            <span>Vercel</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-git"></i>
+                            <span>GitHub Actions</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-box-seam"></i>
+                            <span>Docker Hub</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-shield-check"></i>
+                            <span>Terraform</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-graph-up"></i>
+                            <span>Datadog</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-diagram-3"></i>
+                            <span>Kubernetes</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-globe"></i>
+                            <span>Cloudflare</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-category" data-aos="fade-up" data-aos-delay="400">
+                    <div class="tech-header">
+                        <div class="tech-icon">
+                            <i class="bi bi-arrow-repeat"></i>
+                        </div>
+                        <h3>Automation & Workflows</h3>
+                    </div>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="bi bi-diagram-2"></i>
+                            <span>n8n</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-robot"></i>
+                            <span>OpenClaw</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-plug"></i>
+                            <span>Zapier</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-gear"></i>
+                            <span>Make.com</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-cpu"></i>
+                            <span>Puppeteer</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-braces"></i>
+                            <span>REST APIs</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-link-45deg"></i>
+                            <span>Webhooks</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-browser-chrome"></i>
+                            <span>Selenium</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-category" data-aos="fade-up" data-aos-delay="500">
+                    <div class="tech-header">
+                        <div class="tech-icon">
+                            <i class="bi bi-play-circle"></i>
+                        </div>
+                        <h3>AI Video & Media</h3>
+                    </div>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="bi bi-play-circle"></i>
+                            <span>VEO 3.1</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-film"></i>
+                            <span>Sora</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-easel"></i>
+                            <span>Runway</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-image"></i>
+                            <span>DALL-E 3</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-stars"></i>
+                            <span>Midjourney</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-palette2"></i>
+                            <span>Stable Diffusion</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-palette"></i>
+                            <span>Leonardo AI</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-music-note-beamed"></i>
+                            <span>ElevenLabs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-category" data-aos="fade-up" data-aos-delay="600">
+                    <div class="tech-header">
+                        <div class="tech-icon">
+                            <i class="bi bi-credit-card"></i>
+                        </div>
+                        <h3>Payments Chile</h3>
+                    </div>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="bi bi-credit-card"></i>
+                            <span>Webpay Plus</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-currency-dollar"></i>
+                            <span>MercadoPago</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-credit-card-2-front"></i>
+                            <span>Stripe</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-paypal"></i>
+                            <span>PayPal</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-wallet"></i>
+                            <span>Khipu</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="bi bi-qr-code-scan"></i>
+                            <span>QR Payments</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Trayectoria</span>
+                <h2 class="section-title">Experiencia & Educación</h2>
+                <p class="section-subtitle">
+                    Mi camino profesional y académico
+                </p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-marker">
+                        <i class="bi bi-mortarboard"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Ingeniería de Sistemas</h3>
+                            <span class="timeline-date">2018 - 2023</span>
+                        </div>
+                        <p class="timeline-subtitle">Universidad Nacional de Ingeniería</p>
+                        <p class="timeline-description">
+                            Formación sólida en arquitectura de software, bases de datos, 
+                            redes y desarrollo de sistemas. Graduado con honores.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-marker">
+                        <i class="bi bi-award"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>AWS Solutions Architect</h3>
+                            <span class="timeline-date">2023</span>
+                        </div>
+                        <p class="timeline-subtitle">Amazon Web Services</p>
+                        <p class="timeline-description">
+                            Certificación profesional en diseño de arquitecturas 
+                            distribuidas y servicios en la nube de AWS.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-marker">
+                        <i class="bi bi-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>AI Engineer - Tech Startup</h3>
+                            <span class="timeline-date">2023 - Presente</span>
+                        </div>
+                        <p class="timeline-subtitle">Desarrollo de RAG Systems</p>
+                        <p class="timeline-description">
+                            Liderazgo en implementación de sistemas de IA generativa, 
+                            integración con APIs de LLM y optimización de pipelines de datos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-marker">
+                        <i class="bi bi-robot"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Freelance - SaaS Development</h3>
+                            <span class="timeline-date">2022 - Presente</span>
+                        </div>
+                        <p class="timeline-subtitle">Proyectos Independientes</p>
+                        <p class="timeline-description">
+                            Desarrollo de plataformas e-commerce con Webpay, 
+                            dashboards analíticos y sistemas de automatización.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Conversemos</span>
+                <h2 class="section-title">Contacto</h2>
+                <p class="section-subtitle">
+                    ¿Tienes un proyecto en mente? Hablemos
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-7" data-aos="fade-right">
+                    <div class="contact-form-card">
+                        <form id="contactForm" class="contact-form">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name" class="form-label">
+                                            <i class="bi bi-person me-2"></i>Nombre Completo
+                                        </label>
+                                        <input type="text" class="form-control" id="name" name="name" 
+                                               placeholder="Tu nombre" required minlength="2">
+                                        <div class="invalid-feedback">Ingresa tu nombre (mínimo 2 caracteres)</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">
+                                            <i class="bi bi-envelope me-2"></i>Email
+                                        </label>
+                                        <input type="email" class="form-control" id="email" name="email" 
+                                               placeholder="correo@ejemplo.com" required>
+                                        <div class="invalid-feedback">Ingresa un email válido</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="phone" class="form-label">
+                                            <i class="bi bi-phone me-2"></i>Teléfono (opcional)
+                                        </label>
+                                        <input type="tel" class="form-control" id="phone" name="phone" 
+                                               placeholder="+51 973 082 184">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="company" class="form-label">
+                                            <i class="bi bi-building me-2"></i>Empresa (opcional)
+                                        </label>
+                                        <input type="text" class="form-control" id="company" name="company" 
+                                               placeholder="Tu empresa">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="subject" class="form-label">
+                                            <i class="bi bi-chat-left-text me-2"></i>Asunto
+                                        </label>
+                                        <input type="text" class="form-control" id="subject" name="subject" 
+                                               placeholder="¿Sobre qué quieres hablar?">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="message" class="form-label">
+                                            <i class="bi bi-pencil me-2"></i>Mensaje
+                                        </label>
+                                        <textarea class="form-control" id="message" name="message" 
+                                                  rows="5" placeholder="Cuéntame sobre tu proyecto..." 
+                                                  required minlength="10"></textarea>
+                                        <div class="invalid-feedback">El mensaje debe tener al menos 10 caracteres</div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-submit" id="submitBtn">
+                                        <span class="btn-text">Enviar Mensaje</span>
+                                        <span class="btn-loader d-none">
+                                            <span class="spinner-border spinner-border-sm me-2"></span>
+                                            Enviando...
+                                        </span>
+                                        <i class="bi bi-send ms-2"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5" data-aos="fade-left">
+                    <div class="contact-info-cards">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="bi bi-envelope-paper"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Email</h4>
+                                <p>arturo.enriquez@email.com</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="bi bi-whatsapp"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>WhatsApp</h4>
+                                <p>+51 973 082 184</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Ubicación</h4>
+                                <p>Lima, Perú</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="bi bi-clock"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Disponibilidad</h4>
+                                <p>Lunes - Viernes, 9am - 6pm</p>
+                            </div>
+                        </div>
+                        <div class="social-card">
+                            <h4>Sígueme</h4>
+                            <div class="social-links">
+                                <a href="https://linkedin.com/in/arturoenriquez" target="_blank" class="social-link">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/arturoenriquez" target="_blank" class="social-link">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://twitter.com/arturoenriquez" target="_blank" class="social-link">
+                                    <i class="bi bi-twitter-x"></i>
+                                </a>
+                                <a href="https://instagram.com/arturoenriquez" target="_blank" class="social-link">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <div class="brand-icon">
+                            <span>AE</span>
+                        </div>
+                        <h3>Arturo Enriquez</h3>
+                        <p>AI Engineer & Software Architect especializado en construir soluciones inteligentes y escalables.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h4>Navegación</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre-mi">Sobre Mí</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h4>Servicios</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">AI Development</a></li>
+                        <li><a href="#">RAG Systems</a></li>
+                        <li><a href="#">SaaS Platforms</a></li>
+                        <li><a href="#">API Integration</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4>Contacto Rápido</h4>
+                    <p><i class="bi bi-envelope me-2"></i>arturo.enriquez@email.com</p>
+                    <p><i class="bi bi-whatsapp me-2"></i>+51 973 082 184</p>
+                    <p><i class="bi bi-geo-alt me-2"></i>Lima, Perú</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p>&copy; 2026 Arturo Enriquez. Todos los derechos reservados.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p>Hecho con <i class="bi bi-heart-fill text-danger"></i> y Python</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/51973082184?text=Hola%20Arturo!%20Vi%20tu%20portfolio%20y%20me%20gustaría%20contactarte" 
+       target="_blank" 
+       class="whatsapp-float" 
+       id="whatsappFloat"
+       aria-label="Contactar por WhatsApp">
+        <div class="whatsapp-tooltip">¿Hablamos?</div>
+        <div class="whatsapp-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175.216 175.552">
+                <path fill="#b3b3b3" d="m54.532 138.45 2.235 1.324c9.387 5.571 20.15 8.518 31.126 8.523h.023c33.707 0 61.139-27.426 61.153-61.135.006-16.335-6.349-31.696-17.895-43.251A60.75 60.75 0 0 0 87.94 25.983c-33.733 0-61.166 27.423-61.178 61.13a60.98 60.98 0 0 0 9.349 32.535l1.455 2.312-6.179 22.558zm-40.811 23.544L24.16 123.88c-6.438-11.154-9.825-23.808-9.821-36.772.017-40.556 33.021-73.55 73.578-73.55 19.681.01 38.154 7.669 52.047 21.572s21.537 32.383 21.53 52.037c-.018 40.553-33.027 73.553-73.578 73.553h-.032c-12.313-.005-24.412-3.094-35.159-8.954z"/>
+                <path fill="#fff" d="m12.966 161.238 10.439-38.114a73.42 73.42 0 0 1-9.821-36.772c.017-40.556 33.021-73.55 73.578-73.55 19.681.01 38.154 7.669 52.047 21.572s21.537 32.383 21.53 52.037c-.018 40.553-33.027 73.553-73.578 73.553h-.032c-12.313-.005-24.412-3.094-35.159-8.954z"/>
+                <path fill="#57d163" d="M87.184 25.227c-33.733 0-61.166 27.423-61.178 61.13a60.98 60.98 0 0 0 9.349 32.535l1.455 2.313-6.179 22.558 23.146-6.069 2.235 1.324c9.387 5.571 20.15 8.517 31.126 8.523h.023c33.707 0 61.14-27.426 61.153-61.135a60.75 60.75 0 0 0-17.895-43.251 60.75 60.75 0 0 0-43.235-17.928z"/>
+                <path fill="#fff" fill-rule="evenodd" d="M68.772 55.603c-1.378-3.061-2.828-3.123-4.137-3.176l-3.524-.043c-1.226 0-3.218.46-4.902 2.3s-6.435 6.287-6.435 15.332 6.588 17.785 7.506 19.013 12.718 20.381 31.405 27.75c15.529 6.124 18.689 4.906 22.061 4.6s10.877-4.447 12.408-8.74 1.532-7.971 1.073-8.74-1.685-1.226-3.525-2.146-10.877-5.367-12.562-5.981-2.91-.919-4.137.921-4.746 5.979-5.819 7.206-2.144 1.381-3.984.462-7.76-2.861-14.784-9.124c-5.465-4.873-9.154-10.891-10.228-12.73s-.114-2.835.808-3.751c.825-.824 1.838-2.147 2.759-3.22s1.224-1.84 1.836-3.065.307-2.301-.153-3.22-4.032-10.011-5.666-13.647"/>
+            </svg>
+        </div>
+        <div class="whatsapp-pulse"></div>
+    </a>
+
+    <div class="toast-container position-fixed top-0 end-0 p-3" style="margin-top: 100px;">
+        <div id="contactToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                <strong class="me-auto">Mensaje Enviado</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                ¡Gracias por contactarme! Te responderé pronto.
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
